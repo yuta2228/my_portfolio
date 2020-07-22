@@ -1,0 +1,96 @@
+header{
+  margin: 320px auto;
+  div{
+      .row{
+        margin: auto;
+        display: block;
+        text-align: center;
+      h1{
+      font-size: 90px;
+      border-top: solid 5px;
+      }
+      }
+    
+    
+  }
+}
+
+nav{
+  opacity: 0.7;
+}
+
+.nav-img{
+  width: 250px;
+}
+
+a.nav-link{
+  margin: 0 10px;
+}
+
+section.works{
+  background-color:#F8F9FA;
+  padding: 180px 0;
+  h2{
+    font-size: 70px;
+    text-align: center;
+  }
+  .works-img{
+    img {
+      width: 450px;
+      height: 250px;
+      object-fit: cover;
+      max-width: 100%;
+    }
+  }
+}
+
+section.skills{
+  padding: 180px 0;
+  h2{
+    font-size: 70px;
+    text-align: center;
+  }
+  div.skill-box{
+    border: solid 3px;
+    text-align: center;
+    margin: 30px;
+    padding: 30px 0;
+    border-radius: 30px;
+    .skill-icon{
+      font-size: 50px;
+    }
+    .skill-name{
+      font-family: fantasy;
+    }
+  }
+}
+
+section.contact{
+  background-color:#F8F9FA;
+  text-align: center;
+  padding: 120px 0;
+  h2{
+    font-size: 70px;
+    
+  }
+  .mail{
+    i{
+      color: #333333;
+      font-size: 100px;
+      
+    }
+  }
+}
+
+footer{
+  padding-top: 60px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 479px){
+  header{
+    margin: 180px 0;
+  }
+}
